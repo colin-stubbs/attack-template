@@ -1,0 +1,32 @@
+{
+	"name": "Detection",
+	"version": "2.2",
+	"domain": "mitre-enterprise",
+	"description": "Indicates and scores technique detection capabilities as they are currently known to exist. Score indicates quality, 0 == believed to be no detection. 25 == suspected detection but unconfirmed, 50 == detection confirmed with limited testing. 75 == detection confirmed via artificial simulation. 100 == detection confirmed via real world read team exercise.",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [ ],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}

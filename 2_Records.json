@@ -1,0 +1,32 @@
+{
+	"name": "Records",
+	"version": "2.2",
+	"domain": "mitre-enterprise",
+	"description": "Indicates and scores record generation and collection which is occurring relevant to techniques. Score indicates quality, 0 == no generation or collection. 25 == generation and queryable but no collection, 50 == generation, queryable, but limited collection. 75 == generation, queryable, collected but mutable. 100 == generated, queryable, collected and immutable.",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [ ],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}

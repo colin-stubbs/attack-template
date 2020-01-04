@@ -1,0 +1,32 @@
+{
+	"name": "Actors",
+	"version": "2.2",
+	"domain": "mitre-enterprise",
+	"description": "Selects and scores techniques by actor. Scoring determined by analysis of actor. Lower score equals more relevant, e.g. more of a threat.",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [ ],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}

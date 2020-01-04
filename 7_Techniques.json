@@ -1,0 +1,32 @@
+{
+	"name": "Techniques",
+	"version": "2.2",
+	"domain": "mitre-enterprise",
+	"description": "Selects and scores individual techniques. Scoring determined by analysis of technique in context of organisation. Lower score equals more relevant, e.g. more likely to be used.",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [ ],
+	"gradient": {
+		"colors": [
+			"#ff6666",
+			"#ffe766",
+			"#8ec843"
+		],
+		"minValue": 0,
+		"maxValue": 100
+	},
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}
